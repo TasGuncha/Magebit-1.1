@@ -1,0 +1,68 @@
+/* ===== [ Main ] ===== */
+body {
+  background-image: url("../images/background.png");
+  background-size: 1370px 913px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: "Source Sans Pro";
+}
+.main {
+  width: 920px;
+  height: 584px;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-45%);
+}
+/* ===== [ Backside ] ===== */
+.main .backside {
+  position: absolute;
+  top: 4%;
+  width: 100%;
+  height: 420px;
+  background-color:#273043;
+  opacity: 0.9;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  text-align:left;
+}
+.main .backside > div {
+  width: 280px;
+  height: 212px;
+  padding: 0 30px 75px 80px;
+  flex: 1;
+}
+.main .backside > div h2 {
+  color: white;
+  font-weight: lighter;
+  font-size: 28px;
+}
+.main .backside > div button {
+  padding: 10px 30px;
+  border: 2px solid #48abfe;
+  font-size: 13px;
+  color:white;
+  font-weight: bold;
+  text-transform: uppercase;
+  background: #273043;
+  border-radius:30px;
+  cursor:pointer;
+}
+.main .backside > div button:hover {
+  background: #49ABFE;
+}
+/* ===== [ Table ] ===== */
+#users {
+  border-collapse: collapse;
+  width: 100%;
+}
+#users td, #users th {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+  color: white;
+  font-weight: lighter;
+  font-size: 16px;
+}
